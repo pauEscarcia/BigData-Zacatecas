@@ -1,0 +1,5 @@
+x <- rbeta(5000,5,2)
+summary(x)
+sd(x)
+var(x)
+hist(x)
