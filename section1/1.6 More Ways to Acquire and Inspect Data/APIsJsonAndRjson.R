@@ -18,5 +18,5 @@ json.data$current_observation$observation_location
 obs.location <-rep(NA,length(json.data$current_observation$observation_location))
 for (n in 1:length(json.data$current_observation$observation_location)) {
   obs.location[n] <- json.data$current_observation$observation_location[[n]]
-    }
+}
 obs.location
