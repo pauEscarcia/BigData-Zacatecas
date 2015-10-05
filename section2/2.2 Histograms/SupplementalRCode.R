@@ -47,5 +47,5 @@ label <- "Uniform, Symmetric"
 # give the plotted distribution that nice smooth plateau-like form.
 x <- runif(100000000,0,6)
 # Now plot the histogram in gray, limiting the extent of the x-axis
-# to between 0 and 6 so tha
+# to between 0 and 6 so than
 hist(x,col="#cccccc",xlim=c(0,6),breaks=7,axes=FALSE,xlab="",main=label)
