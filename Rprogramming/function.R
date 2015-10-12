@@ -8,3 +8,16 @@ f <- function(num){
 }
 meaningoflife <- f(3)
 print (meaningoflife)
+
+#
+f <- function(num=1){
+  hello <- "Hello,world!\n"
+  for (i in seq_len(num)){
+    cat(hello)
+  }
+  chars <- nchar(hello)*num
+  chars
+}
+f() # Use default value for 'num'
+f(2)# Use user-specified value
+f(num=2)
