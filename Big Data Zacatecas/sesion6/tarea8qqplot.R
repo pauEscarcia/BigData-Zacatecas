@@ -6,4 +6,4 @@ suscripciones
 qqnorm(suscripciones); qqline(suscripciones)
 qqplot(x, x, main="t(3) Q-Q Plot",
        ylab="Banda Ancha Fija")
-abline(0,1) 
+abline(0,1) qqplot
