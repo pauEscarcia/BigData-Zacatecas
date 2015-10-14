@@ -1,4 +1,4 @@
-#Comparative Box Plots
+
 all.scores <- read.csv("bafijaporcada100habitantes.csv")
 all.scores
 suscripciones <- all.scores[,"Suscripciones.100.h"] #trae columnas 
