@@ -10,4 +10,11 @@ pwr.t.test(n=NULL,sig.level = 0.05,power = 0.8,d=0.3, type = "two.sample", alter
 #paired t-test
 pwr.t.test(n=NULL,sig.level = 0.05,power = 0.8,d=0.3, type = "paired", alternative = "greater")
 
+#you can calculate any of the values if you know all of the other values
+pwr.t.test(n=28,sig.level = 0.05,power = NULL,d=0.3, type = "paired", alternative = "greater")
+pwr.t.test(n=28,sig.level = 0.05,power = 0.8,d=NULL, type = "paired", alternative = "greater")
+
+#you can also access the sample size n directly 
+pwr.t.test(n=NULL,sig.level = 0.05,power = 0.8,d=0.3, type = "paired", alternative = "greater")$n
+
 
