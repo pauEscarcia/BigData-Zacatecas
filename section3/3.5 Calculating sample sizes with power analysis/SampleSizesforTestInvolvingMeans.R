@@ -1,0 +1,1 @@
+pwr.t.test(n=NULL,sig.level=0.05,power=0.8,d=0.3,type="one.sample")
