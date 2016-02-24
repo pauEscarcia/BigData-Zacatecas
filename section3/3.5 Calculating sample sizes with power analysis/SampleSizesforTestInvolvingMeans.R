@@ -1,1 +1,10 @@
+#install.packages("pwr")
+library(pwr)
+#n=NULL argument to pwr.t.test
 pwr.t.test(n=NULL,sig.level=0.05,power=0.8,d=0.3,type="one.sample")
+pwr.t.test(n=NULL,sig.level = 0.05,power = 0.8,d=0.3, type = "one.sample", alternative = "greater")
+
+#same command to determinate sample sizes for the two sample t-test
+pwr.t.test(n=NULL,sig.level = 0.05,power = 0.8,d=0.3, type = "two.sample", alternative = "greater")
+
+
