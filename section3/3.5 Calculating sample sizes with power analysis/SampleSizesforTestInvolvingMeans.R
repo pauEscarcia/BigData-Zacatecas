@@ -7,4 +7,7 @@ pwr.t.test(n=NULL,sig.level = 0.05,power = 0.8,d=0.3, type = "one.sample", alter
 #same command to determinate sample sizes for the two sample t-test
 pwr.t.test(n=NULL,sig.level = 0.05,power = 0.8,d=0.3, type = "two.sample", alternative = "greater")
 
+#paired t-test
+pwr.t.test(n=NULL,sig.level = 0.05,power = 0.8,d=0.3, type = "paired", alternative = "greater")
+
 
